@@ -12,7 +12,7 @@ Negative Numbers: Full support for unary operations (like -5).
 
 When you run a script, it goes through four distinct phases to become an actual result:
 
-📝 The Lexer (The Reader): It scans the raw text file, ignores the blank spaces, and chops the characters up into meaningful pieces called "Tokens" (like numbers, symbols, and words).
+ The Lexer (The Reader): It scans the raw text file, ignores the blank spaces, and chops the characters up into meaningful pieces called "Tokens" (like numbers, symbols, and words).
 
  The Parser (The Grammar Checker): It takes those tokens and builds them into an Abstract Syntax Tree (AST). This ensures your code follows the grammatical rules of the language and respects things like PEMDAS.
  
@@ -37,8 +37,7 @@ POP: Cleans up the stack by tossing the top item.
 
 RETURN: Tells the VM the job is done.
 
- Let's Run It!
-1. Compile the project:
+ Compile the project:
 Make sure you have a modern C++ compiler (C++11 or higher). You can build the whole thing by running:
 
-Bash
+
